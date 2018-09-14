@@ -75,6 +75,7 @@ RUN \
 	pip \
 	pyacoustid \
 	requests \
+	requests_oauthlib \
 	unidecode && \
  echo "**** cleanup ****" && \
  apk del --purge \
